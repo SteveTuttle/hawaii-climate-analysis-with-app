@@ -25,11 +25,11 @@ This analysis is to be performed in the following steps per the instructions:
 
 5) Sort the DataFrame values by "date".
 
-6) Plot the results by using the DataFrame plot method: (plot)
+6) Plot the results by using the DataFrame plot method:
 
 _Hawaii Precipitation Chart_
 
-placeholder
+![HI-prcp-chart](https://github.com/SteveTuttle/sqlalchemy-challenge/blob/main/Images/HI_prcp.png)
 
 7) Use Pandas to print the summary statistics for the precipitation data.
 
@@ -46,11 +46,11 @@ This analysis is to be performed in the following steps per the instructions:
 4) Design a query to get the __previous 12 months of Temperature Observation (TOBS) data__ as follows:
 * Filter by the station that has the greatest number of observations.
 * Query the previous 12 months of TOBS data for that station.
-* Plot the results as a histogram with bins=12: (plot)
+* Plot the results as a histogram with bins=12:
 
 _12 Months of Temperature Observation Chart_
 
-placeholder
+![12-mos-TOBS](https://github.com/SteveTuttle/sqlalchemy-challenge/blob/main/Images/12_mo_TOBS.png)
 
 ### Part-2: Design Your Climate App
 For this part, we will design a Flask API called __app_SDT.py__ based on the queries created with Jupyter notebook.
@@ -110,4 +110,4 @@ _(where possible will provide link to website)_
 * [matplotlib documentation](https://matplotlib.org/stable/index.html)
 * [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/20/)
 * [Flask documentation](https://flask.palletsprojects.com/en/2.3.x/)
-
+* YouTube _(various tutorials)_
