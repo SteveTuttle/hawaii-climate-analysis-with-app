@@ -57,30 +57,25 @@ For this part, we will design a Flask API called __app_SDT.py__ based on the que
 
 Per the challenge instructions, we are creating the following routes as well as specific parameters:
 1) Home Route
-
 __/__
 * Start at the homepage.
 * List all the available routes.
 
 2) Precipitation Route
-
 __/api/v1.0/precipitation__
 * Convert the query results from your __precipitation analysis__ _(only the last 12 months of data)_ __to a dictionary using date as the key and prcp as the value.__
 * Return the JSON representation of your dictionary.
 
 3) Stations Route
-
 __/api/v1.0/stations__
 * Return a JSON __list of stations from the dataset.__
 
 4) Temperature Observation Route
-
 __/api/v1.0/tobs__
 * Query the __dates and temperature observations of the most-active station for the previous year of data.__
 * Return a JSON list of temperature observations for the previous year.
 
 5) Start date _OR_ Start & End date Route
-
 __/api/v1.0/<start> and /api/v1.0/<start>/<end>__
 * Return a JSON list of the __minimum, average, and maximum temperature__ for a specified start or start-end range.
 * For a specified start, calculate _TMIN_, _TAVG_, and _TMAX_ for all the dates greater than or equal to the start date.
