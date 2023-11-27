@@ -1,4 +1,4 @@
-# sqlalchemy-challenge
+# hawaii-climate-analysis-with-app
 UNC_data_bootcamp_module_10
 
 ## Challenge Description
